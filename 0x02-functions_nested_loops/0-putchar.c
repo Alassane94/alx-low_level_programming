@@ -1,37 +1,36 @@
-nclude "holberton.h"
+#include "holberton.h"
 
 /**
+
+ * main - Entry point
+
  *
- *  * main - Entry point
- *
- *   *
- *
- *    * Return: Always 0 (Success)
- *
- *     */
+
+ * Return: Always 0 (Success)
+
+ */
 
 int main(void)
 
 {
 
-		char *sh = "Holberton";
+	char *sh = "Holberton";
 
 
 
-			while (*sh)
+	while (*sh)
 
-					{
+	{
 
-								_putchar(*sh);
+		_putchar(*sh);
 
-										sh++;
+		sh++;
 
-											}
+	}
 
-				_putchar('\n');
+	_putchar('\n');
 
 
 
-					return (0);
+	return (0);
 
-}
